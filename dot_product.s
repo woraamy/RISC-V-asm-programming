@@ -35,7 +35,7 @@ loop:
    lw x21 0(x18)
    lw x22 0(x19)
    
-   mul x20, x21, x22 # multiply x18 and x19 store it in x20
+   mul x20, x21, x22 # multiply x21 and x22 store it in x20
    add x5, x5, x20
    addi x6, x6, 1 # i++
    j loop
